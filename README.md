@@ -1,14 +1,16 @@
 # Quantifying ECG Deviations with Latent Space Features for Improved Classification Reliability
 
-This github repository contains the code, trained model and data assosiated with this thesis. 
+This GitHub repository contains the code, trained model and data associated with this thesis. 
 
 ## Overview of files
 
 The files:   
 `code/utility_functions/data_functions.py`   
 `code/utility_functions/deviation_detection_functions.py`   
-`deviation_detection_main.ipynb`   
-`train_and_inspect_model_main.ipynb`   
+`code/deviation_detection_main.ipynb`   
+`code/train_and_inspect_model_main.ipynb`   
+`code/deviation_detection_main.py`   (Added incase python files are preffered)
+`code/train_and_inspect_model_main.py`  (Added incase python files are preffered)
 
 Were made during this project.
 
@@ -37,9 +39,8 @@ which means that the code can be ran without training the model.
 The file:    
 condaENV    
 
-contains the enviorment variables from the latest anaconda enviorment used and can be loaded directly into anaconda to recreate the enviorment.      
+contains the environment variables from the latest anaconda environment used and can be loaded directly into anaconda to recreate the environment.      
 This should be all that is needed to run the code, but:   
 
-depending on the system and intalled drivers, you might need visual studio and c++ tools which are common dependencies for some Python packages.     
-The code should work without having the CUDA tool kit installed, but to use CUDA, this kit or similair CUDA packages needs to be installed. (https://developer.nvidia.com/cuda-toolkit)
-
+depending on the system and installed drivers, you might need visual studio and c++ tools which are common dependencies for some Python packages.     
+The code should work without having the CUDA tool kit installed, but to use CUDA, this kit or similar CUDA packages needs to be installed. (https://developer.nvidia.com/cuda-toolkit)
